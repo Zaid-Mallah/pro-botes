@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+*{
+    font-family: "Cairo", sans-serif;
+}
+:root{
+    --main-color:#688093;
+}
+.navbar{
+    background-color: var(--main-color)
+}
+.carousel-item img{
+    height: 100vh;
+}
+.my-icone{
+    font-size: xx-large;
+    color: var(--main-color);
+}
+.carousel-caption{
+   background-color: rgba(0, 98, 255, 0.319);
+   border-radius:15px;
+   -webkit-border-radius:15px;
+   -moz-border-radius:15px;
+   -ms-border-radius:15px;
+   -o-border-radius:15px;
+   bottom: 3.25rem;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: var(--main-color);
+    height: 5px;
+    
+}
+.my-buttom{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 7px 15px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.my-buttom:hover{
+    background-color: #dc3545;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.image-alsi{
+    width: 80% !important;
+    height: 80% !important;
+}
+.text-heder{
+    border-bottom: 3px solid var(--main-color);
+    padding-bottom: 10px;
+}
+.icone{font-size: x-large;}
+.prod-but{
+    background-color: var(--main-color);
+    margin: 0px 10px;
+}
+.stars{
+    color: var(--main-color);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.stars:hover{
+    color: #dc3545;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    cursor: pointer;
+}
+.card img{
+    transition:0.7s;
+    -webkit-transition:0.7s;
+    -moz-transition:0.7s;
+    -ms-transition:0.7s;
+    -o-transition:0.7s;
+    height: 300px;
+}
+.card{overflow: hidden;}
+.card-body{overflow: hidden;}
+.card img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.contact{
+    
+    background-image: url('../img/607ee530dd599172a5108deb_2_mac-rotating-lamp.gif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.point img{
+    cursor: pointer;
+}
+.prod-polcy{
+    background-color: rgb(239, 239, 239);
+}
+.accordion button{
+    background-color: #0d6efd !important;
+    color: white;
+}
+.accordion button:hover{color: white;}
+.accordion h2{
+    background-color: #0d6efd !important;
+}
+.update{
+   background-color: rgba(0, 98, 255, 0.41);
+   border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+   padding: 10px 20px;
+   color: white;
+}
+footer{
+    background-color: var(--main-color);
+    color: white;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color)
+  }
